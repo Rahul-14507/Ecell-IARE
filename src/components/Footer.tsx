@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <ImageWithFallback 
-                src="/ecell-logo.svg"
+                src="icon.png"
                 alt="E-Cell IARE Logo"
                 className="w-10 h-10 object-contain"
               />
