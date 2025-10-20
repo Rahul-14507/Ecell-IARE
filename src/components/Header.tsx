@@ -8,7 +8,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <ImageWithFallback 
-              src="icon.png"
+              src="/icon.png"
               alt="E-Cell IARE Logo"
               className="w-10 h-10 object-contain"
             />
