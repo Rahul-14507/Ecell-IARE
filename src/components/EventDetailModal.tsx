@@ -229,9 +229,6 @@ export function EventDetailModal({ isOpen, onClose, event }: EventDetailModalPro
                 </Button>
               </form>
 
-              <p className="text-gray-500 text-xs text-center mt-4">
-                Note: Replace YOUR_FORM_ID in the code with your actual Formspree form ID
-              </p>
             </div>
           </div>
         </div>
