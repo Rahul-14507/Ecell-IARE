@@ -1,6 +1,5 @@
 import { Twitter, Linkedin, Instagram, MessageCircle, Mail } from "lucide-react";
 import { Button } from "./ui/button";
-// import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 export function Footer() {
   return (
@@ -9,13 +8,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              {/* <ImageWithFallback 
-                src="icon.png"
-                alt="E-Cell IARE Logo"
-                className="w-10 h-10 object-contain"
-              /> */}
               <img 
-              src="/icon.png" // USE ABSOLUTE PATH
+              src="/icon.png"
               alt="E-Cell IARE Logo"
               className="w-10 h-10 object-contain"
               />
